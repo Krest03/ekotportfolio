@@ -1,0 +1,271 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+body{
+	color: rgb(44, 44, 44);
+	-webkit-font-smoothing: antialiased;
+    font-family: Poppins, sans-serif;
+}
+
+.logo{
+    height: 5rem;
+	width: 5rem;
+	padding: 2px;
+	margin-left: 3em;
+}
+nav ul{
+	margin-top: 2em;
+	text-align: right;
+	width: 100%;
+	margin-right: 3em;
+
+}
+ul li{
+	display: inline-block;
+white-space: nowrap;
+margin: auto 10px;
+}
+ul li a{
+	text-decoration: none;
+	color: rgb(44, 44, 44);
+	font-weight: 700;
+}
+ul li a:hover{
+	color: rgb(255, 150, 0);}
+
+nav{
+	display: flex;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	
+	
+}
+.home{
+	align-items: center;
+    background-color: rgb(173, 184, 202);
+    color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+    padding: 3em 3em 0px;
+	line-height: 1.75;
+}
+.home img, .aboutme img{
+	height: 40rem;
+	width: 35rem;
+}
+.home h2{
+	font-size: 3.5rem;
+	margin-bottom: 3px;
+}
+.home h3{
+	font-size: 3rem;
+	margin-bottom: 3px;
+}
+
+.home p{
+	font-size: 1rem;
+}
+.home button{
+	font-weight: 850;
+    width: 200px;
+    margin-top: 2rem !important;
+	padding: 10px 5px;
+	background-color: rgb(44, 44, 44);
+    color: rgb(255, 150, 0);
+	border: 1px solid rgba(25, 118, 210, 0.5);
+	border-radius: 5px;
+}
+.home button:hover{
+	border: 1px solid rgb(25, 118, 210);
+}
+#about h1, #services h1{
+	display: block;
+	text-align: center;
+	text-decoration: underline rgb(255, 150, 0);
+	font-weight: bold;
+	font-size: 2em;
+	margin: 1em auto;
+}
+.aboutme{
+	display: flex;
+	text-align: left;
+	background-color: white;
+}
+.aboutme img{
+	height: 30rem;
+    width: 23rem;
+	
+}
+.ekot2div{
+	box-shadow: grey 0.2rem 0px 1rem 0px;
+    height: max-content;
+    width: max-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 1rem;
+    margin: 3em 3em;
+    padding: 0px 0.7rem;
+}
+.aboutdiv{
+	margin:  auto;
+	padding: 20px 100px;
+}
+.aboutdiv p{
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+.aboutdiv button{
+	font-weight: 850;
+    width: 200px;
+    margin-top: 0px;
+	padding: 10px 5px;
+	background-color: rgb(44, 44, 44);
+    color: rgb(255, 150, 0);
+	border: 1px solid rgba(25, 118, 210, 0.5);
+	border-radius: 5px;
+}
+.aboutdiv button:hover{
+	cursor: pointer;
+	border: none;
+}
+#services .servicestext{
+	margin: 2em 2em;
+	text-align: center;
+	line-height: 1.5;
+}
+.serviceicons{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 3rem;
+		margin: 3em auto;
+}
+ .serviceicons div{
+	border: 1px solid rgb(255, 150, 0);
+	border-radius: 2rem;
+	flex-direction: column;
+	width: 13rem;
+	height: 10rem;
+    padding: 1rem; 
+    justify-content: center;
+
+} 
+.serviceicons div:hover{
+	background-color:rgb(255, 150, 0);
+	cursor: pointer; 
+}
+#contact h1{
+	display: block;
+	text-align: center;
+	text-decoration: underline rgb(255, 150, 0);
+	font-weight: bold;
+	font-size: 2em;
+	margin: 2em auto;}
+.contactcontainer{
+	display: flex;
+	justify-content: space-around;
+}
+.contacticon{
+	text-align: center;
+	margin:10em 0px;
+}	
+form{
+	text-align: center;
+}
+form h3{
+	margin-bottom: 1em;
+}
+form input{
+	margin-bottom: 5px;
+	width:500px;
+	height:50px;
+	border-radius: 5px;
+}
+form textarea{
+	margin-bottom: 5px;
+	width:500px;
+	height:265px;
+	border-radius: 5px;
+}
+.bt{
+	text-align: left;
+}
+#contact button{
+	font-weight: 700;
+    padding: 0.7rem;
+    width: 200px;
+    margin-top: 0px;
+	background-color: rgb(44, 44, 44);
+    color: rgb(255, 150, 0);
+	border: 1px  ;
+	border-radius: 5px;}
+#contact button:hover{
+box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+.footerdiv{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(173, 184, 202); 
+}
+.footerdiv img{
+	height: 5rem;
+	width:5rem;
+	padding: 5px;
+	margin: 2em 0;
+}
+.footertext{
+	padding: 5px;
+	text-align: right;
+	margin: 2em 0;
+}
+
+/* media quaries */
+@media screen and (max-width: 970px){
+	.home{
+		align-items: center;
+		background-color: rgb(173, 184, 202);
+		color: rgb(44, 44, 44);
+		display: block;
+		text-align: center;
+	}
+
+	.aboutme{
+		display: block;
+		text-align: center;
+		background-color: white;
+	align-items: center;}
+	.ekot2div{
+		box-shadow: grey 0.2rem 0px 1rem 0px;
+		height: auto;
+		width: auto;}
+
+		
+		}
+
+@media screen and (max-width: 700px){
+	.contactcontainer{
+		display: block;}
+		.bt{
+			text-align:center}
+			
+}
+@media screen and (max-width: 760px){
+	ul li{
+		display: block;}
+		nav{
+			display:flex;}
+			nav ul{
+					margin-top: 0px;
+					text-align: right;
+					width: 100%;
+	}
+				
+	}
